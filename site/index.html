@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Actions CI Workshop</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="version">Hands-on exercise</span>
+      <h1>Calculator CI Workshop</h1>
+      <p>Make a change, break the tests, and fix them with GitHub Actions.</p>
+    </header>
+    <section class="calculator" aria-labelledby="calculator-title">
+      <h2 id="calculator-title">Does our calculator work?</h2>
+      <p>Try 2 + 3. The result should be 5.</p>
+      <form id="calculator-form">
+        <label>
+          First number
+          <input id="first-number" type="number" step="any" value="2" required>
+        </label>
+        <label>
+          Second number
+          <input id="second-number" type="number" step="any" value="3" required>
+        </label>
+        <button type="submit">Calculate sum</button>
+      </form>
+      <p id="result" role="status">Result: —</p>
+    </section>
+  </main>
+</body>
+</html>
