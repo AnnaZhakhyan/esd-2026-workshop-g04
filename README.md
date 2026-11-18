@@ -1,5 +1,7 @@
 # GitHub Actions — Calculator CI hands-on
 
+cucumbers are cool
+
 Browser-only exercise for the ESD workshop on **18 November 2026**. Students work in pairs, fork this repository, and observe automated tests passing, failing, and passing again.
 
 **[Start the pair exercise](WORKSHOP_HANDS_ON.md)**
